@@ -1,0 +1,95 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body
+  {
+    background-image: url(nebula.jpg);
+    background-color: #cccccc;
+    //background-size: auto;
+    //background-repeat: no-repeat;
+    //max-height: 100%;
+    //max-width: 100%;
+    background-size: cover;
+    background-repeat:   no-repeat;
+    //background-position: center center;
+  }
+
+h1
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: fantasy;
+    font-size: 60px;
+    color: whitesmoke;
+  }
+
+.clock
+  {
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.clock div
+  {
+    position: relative;
+    background-color: rgba(0, 0, 255, 0.5);
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+  }
+
+  .antemeridiem
+  {
+    width: 550px;
+    height: 150px;
+    position: absolute;
+    bottom: 25%;
+    left: 46.1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.antemeridiem div
+  {
+    position: relative;
+    background-color:  rgba(255, 0, 0, 0.5);
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: fantasy;
+    font-size: 50px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+    letter-spacing: 2px;
+  }
+
+.clock span
+  {
+    font-size: 60px;
+    color: blue;
+  }
